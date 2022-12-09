@@ -15,7 +15,7 @@ nav {
   background-color: #454545;
   display: flex;
 }
-.container {
+.nav_container {
   /* background-color: red; */
   width: 1194px;
   margin: 0 auto;
