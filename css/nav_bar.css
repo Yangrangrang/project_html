@@ -29,12 +29,15 @@ nav {
 }
 .nav_left p,
 .nav_right p {
+  box-sizing: border-box;
   padding: 0 19px;
 }
 .nav_right p:last-child {
   border: 1px solid #e0e0e0;
   border-radius: 10px;
-  height: 46px;
+  width: 72px;
+  margin: auto;
+  padding: 3px 19px;
 }
 .nav_left p a,
 .nav_right p a {
@@ -44,10 +47,16 @@ nav {
   font-weight: 100;
 }
 .nav_center input {
-  width: 378px;
+  width: 348px;
   height: 46px;
   border-radius: 10px;
   border: none;
   margin: auto 0;
+  padding: 0 15px;
   font-size: 20px;
+  background-color: #d9d9d9;
+}
+
+.nav_center input:focus::placeholder {
+  opacity: 0;
 }
