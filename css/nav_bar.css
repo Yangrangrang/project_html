@@ -54,9 +54,48 @@ nav {
   margin: auto 0;
   padding: 0 15px;
   font-size: 20px;
+  box-sizing: border-box;
   background-color: #d9d9d9;
 }
 
 .nav_center input:focus::placeholder {
   opacity: 0;
+}
+.main_container {
+  border: 1px solid #000;
+  width: 1194px;
+  margin: 0 auto;
+}
+.img_bg {
+  border: 1px solid blue;
+  height: 460px;
+}
+.main_search {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  margin: 42px 0;
+}
+.main_search input {
+  width: 480px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #e0e0e0;
+  font-size: 20px;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.main_search p {
+  margin: 0 16px;
+  line-height: 50px;
+  font-size: 20px;
+}
+.main_search button {
+  width: 131px;
+  border: none;
+  border-radius: 10px;
+  background-color: #3381FF;
+  color: white;
+  font-size: 20px;
 }
