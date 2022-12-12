@@ -99,3 +99,44 @@ nav {
   color: white;
   font-size: 20px;
 }
+.main_container {
+  margin-bottom: 200px;
+}
+.trend_charts {
+  border: 1px solid yellowgreen;
+}
+.trend_charts>p {
+  text-align: center;
+  font-size: 30px;
+}
+.chart_blocks {
+  border: 1px solid #000;
+  margin: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.chart_block {
+  border: 1px solid red;
+  display: inline-block;
+  /* margin-right: 30px; */
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+.chart_block:last-child{
+  margin-right: 0;
+}
+.chart_block img {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  background-color: gray;
+}
+.chart_block p{
+  font-size: 20px;
+  margin: 0;
+}
+.chart_block p:last-child {
+  font-size: 14px;
+  margin-top: 5px;
+}
