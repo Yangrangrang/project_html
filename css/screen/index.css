@@ -15,6 +15,7 @@ nav {
   background-color: #454545;
   display: flex;
   position: fixed;
+  z-index: 9;
 }
 .nav_container {
   /* background-color: red; */
