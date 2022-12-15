@@ -1,0 +1,138 @@
+.totalcontentbox {
+  display: flex;
+}
+.totalcontentbox .firstcontentbox {
+  width: 582px;
+}
+.totalcontentbox .firstcontentbox .line {
+  margin-left: 30px;
+}
+.smallmain {
+  width: 553px;
+  margin: 0 0 30px 30px;
+}
+.smallmain .small_sub {
+  margin-left: 14px
+}
+.smallmain .small_title a p {
+  line-height: 2em;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.small_sub p {
+  font-size: 30px;
+  margin: 10px 0 40px;
+}
+.small_sub i {
+  margin-right: 20px;
+}
+.secondcontentbox {
+  width: 582px;
+  height: 1010px;
+  background-color: #fff;
+  /* border: 1px solid #000; */
+  border-left: 1px solid #d9d9d9;
+}
+.contentboxmagin {
+  /* border: 1px solid red; */
+  width: 502px;
+  margin: 0 auto;
+}
+.secondcontentbox .secondbox_title {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+.secondcontentbox .secondbox_title span {
+  font-size: 30px;
+}
+.secondcontentbox .secondbox_title .icons i{
+  margin-left: 20px;
+}
+.secondcontentbox .secondcontentimg {
+  position: relative;
+  /* border: 1px solid green; */
+}
+.secondcontentbox .secondcontentimg img{
+  width: 502px;
+  height: 502px;
+  /* border: 1px solid red; */
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+.secondcontentbox .secondcontentimg i {
+  color: #fff;
+  position: absolute;
+  bottom: 20px;
+  right: 20px
+}
+.secondboxuser {
+  margin: 14px 0 18px 0;
+  display: flex;
+  position: relative;
+}
+.secondboxuser a {
+  display: flex;
+  font-size: 20px;
+}
+.secondboxuser img{
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  margin-right: 14px;
+}
+.secondboxuser .fa-heart,
+.secondboxuser .fa-plus {
+  /* border: 1px solid red; */
+  line-height:74px;
+  margin-left: 20px;
+  position: absolute;
+  right: 0;
+}
+.secondboxuser .fa-heart {
+  right: 60px;
+}
+.secondcontentbox .secondboxtext {
+  font-size: 20px;
+  width: 502px;
+  border: none;
+}
+.secondline {
+  width: 502px;
+  height: 2px;
+  margin: 30px auto;
+}
+.relpyarea {
+  display: flex;
+  font-size: 20px;
+}
+.relpyarea  p {
+  margin: 0 10px 0 0;
+}
+.relpyarea  textarea {
+  font-size: 20px;
+  border: none;
+  width: 380px;
+}
+.contentboxmagin .replychang {
+  /* border: 1px solid #000; */
+  position: relative;
+}
+.contentboxmagin input {
+  width: 502px;
+  height: 50px;
+  font-size: 20px;
+  color: #d9d9d9;
+  border: 1px solid #d9d9d9;
+  padding: 0 14px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.contentboxmagin i {
+  position: absolute;
+  color: #d9d9d9;
+  right: 10px;
+  bottom: 7px;
+}

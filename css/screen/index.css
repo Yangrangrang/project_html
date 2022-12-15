@@ -64,18 +64,18 @@ nav {
   opacity: 0;
 }
 .main_container {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   background: #fff;
   width: 1194px;
   margin: 0 auto;
   padding-top: 70px;
 }
 .img_bg {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   height: 460px;
 }
 .main_search {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
   margin: 42px 0;
@@ -107,7 +107,7 @@ nav {
   margin-bottom: 200px;
 }
 .trend_charts {
-  border: 1px solid yellowgreen;
+  /* border: 1px solid yellowgreen; */
 }
 .trend_charts>p {
   text-align: center;
@@ -121,7 +121,7 @@ nav {
   flex-wrap: wrap;
 }
 .chart_block {
-  border: 1px solid red;
+  border: 1px solid #fff;
   display: inline-block;
   /* margin-right: 30px; */
   box-sizing: border-box;
